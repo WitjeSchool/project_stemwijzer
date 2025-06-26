@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lbots\\OneDrive - Summacollege O365\\Documenten\\school\\1ste jaar\\PROJECTEN\\project stemwijzer\\wpf\\stemwijzer_v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F182D-8342-4902-B440-C28A00DE5DB2}|stemwijzer_v2\\stemwijzer_v2.csproj|c:\\users\\lbots\\onedrive - summacollege o365\\documenten\\school\\1ste jaar\\projecten\\project stemwijzer\\wpf\\stemwijzer_v2\\stemwijzer_v2\\partijmeningenbeheer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C5F182D-8342-4902-B440-C28A00DE5DB2}|stemwijzer_v2\\stemwijzer_v2.csproj|solutionrelative:stemwijzer_v2\\partijmeningenbeheer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PartijMeningenBeheer.xaml",
+              "DocumentMoniker": "C:\\Users\\Lbots\\OneDrive - Summacollege O365\\Documenten\\school\\1ste jaar\\PROJECTEN\\project stemwijzer\\wpf\\stemwijzer_v2\\stemwijzer_v2\\PartijMeningenBeheer.xaml",
+              "RelativeDocumentMoniker": "stemwijzer_v2\\PartijMeningenBeheer.xaml",
+              "ToolTip": "C:\\Users\\Lbots\\OneDrive - Summacollege O365\\Documenten\\school\\1ste jaar\\PROJECTEN\\project stemwijzer\\wpf\\stemwijzer_v2\\stemwijzer_v2\\PartijMeningenBeheer.xaml",
+              "RelativeToolTip": "stemwijzer_v2\\PartijMeningenBeheer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T20:00:46.593Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
