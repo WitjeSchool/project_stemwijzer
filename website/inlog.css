@@ -1,0 +1,128 @@
+html {
+    background-image: url("image/tweede kamer stoelen.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 100% 20%;
+}
+/*navigatie*/
+.navbar {
+    background-color: #8D99AE;
+}
+.navdiv {
+    display: flex; 
+    align-items: right; 
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button {
+    width: auto;
+    height: auto;
+    background-color: #2B2D42;
+    padding: 10px;
+    align-self: center;
+    cursor: pointer;
+}
+.buttonNav {
+    color: white;
+    font-weight: bold;
+}
+/*Knoppen & Links*/
+.logoA {
+    margin-left: 20px;
+}
+.logoB {
+    margin-left: 20px;
+}
+.KnopA {
+    margin-left: 100px;
+}
+.KnopB {
+    margin-left: 20px;
+}
+.KnopC {
+    margin-left: 20px;
+}
+.KnopD {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#KnopE {
+    background-color: #8D99AE;
+    color: white;
+    border: none;
+    width: 10%;
+    height: 5%;
+    margin-top: 1%;
+    margin-left: 37.5%;
+}
+/*gebruikersnaam*/
+#GebruikersnaamVak {
+    background-color: #EDF2F4;
+    margin-top: 10%;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+}
+#GebruikersnaamText {
+    font-weight: bolder;
+    padding: 1%;
+}
+#GebruikersnaamInput {
+    width: 10% auto;
+    height: 20px;
+}
+/*wachtwoord*/
+#WachtwoordVak {
+    background-color: #EDF2F4;
+    margin-top: 2%;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+}
+#WachtwoordText {
+    font-weight: bolder;
+    padding: 1%;
+}
+#WachtwoordInput {
+    width: 10% auto;
+    height: 20px;
+}
+/*regristreer*/
+#RegristratieText {
+    font-weight: bolder;
+    margin-left: 37.5%;
+    margin-top: 2%;
+}
+#RegristratieKnop {
+    margin-left: 47%;
+    margin-top: -1.3%;
+    font-style: italic;
+    text-decoration: underline;
+}
+#RegristratieKnop a {
+    color: black;
+    text-decoration: none;
+}
+/*Footer*/
+.lijn-footer {
+    height: 2px;
+    width: 100%;
+    background-color: darkgray;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+.footerbar {
+    background-color: #EDF2F4;
+    margin-top: 9%;
+    height: 100px;
+}
+.footerdiv {
+    display: flex; 
+    align-items: right; 
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,74 @@
+html {
+    background-image: url("image/tweede kamer stoelen.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 100% 5%;
+}
+/*navigatie*/
+.navbar {
+    background-color: #8D99AE;
+}
+.navdiv {
+    display: flex; 
+    align-items: right; 
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button {
+    width: auto;
+    height: auto;
+    background-color: #2B2D42;
+    padding: 10px;
+    align-self: center;
+    cursor: pointer;
+}
+.buttonNav {
+    color: white;
+    font-weight: bold;
+}
+/*Knoppen & Links*/
+.logoA {
+    margin-left: 20px;
+}
+.logoB {
+    margin-left: 20px;
+}
+.KnopA {
+    margin-left: 100px;
+}
+.KnopB {
+    margin-left: 20px;
+}
+.KnopC {
+    margin-left: 20px;
+}
+.KnopD {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*text*/
+#privacybeleidText {
+    font-size: 20px;
+    margin-top: 15%;
+}
+/*Footer*/
+.lijn-footer {
+    height: 2px;
+    width: 100%;
+    background-color: darkgray;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+.footerbar {
+    background-color: #EDF2F4;
+    margin-top: 9%;
+    height: 100px;
+}
+.footerdiv {
+    display: flex; 
+    align-items: right; 
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

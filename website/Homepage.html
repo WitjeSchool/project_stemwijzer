@@ -1,0 +1,222 @@
+<HTML lang="NL">
+<!DOCTYPE html>
+    <head>
+        <title>Stemwijzer</title>
+        <link rel="Stylesheet" href="Homepage.css"/>
+    </head>
+    <body>
+        <section>
+           <nav class="navbar">
+                <div class="navdiv">
+                <a href="homepage.html">
+                    <img src="image/logo-neutraal-kieslab-donkerblauw.svg" class="logoA" width="70" height="70"/>
+                </a>
+                <ul>
+                    <button class="knopA">
+                        <a class="buttonNav" href="stemwijzer menu.html">Stemwijzer</a>
+                    </button>
+                    <button class="knopB">
+                        <a class="buttonNav" href="info Partijen.html">Informatie Partijen</a>
+                    </button>
+                    <button class="knopC">
+                        <a class="buttonNav" href="over ons.html">Over ons</a>
+                    </button>
+                    <button class="knopD"> <a class="buttonNav" href="Inlog.">Inlog</a></button>
+                    
+
+                    <script>
+  function goToProfile() {
+    window.location.href = 'profile view.html';
+  }
+
+  window.onload = function () {
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+    const profilePicUrl = localStorage.getItem('profilePic'); // sla de URL ergens op bij login
+
+    if (isLoggedIn === 'true' && profilePicUrl) {
+      document.getElementById('loginBtn').style.display = 'none';
+
+      const profilePic = document.getElementById('profilePicBtn');
+      profilePic.src = profilePicUrl;
+      profilePic.style.display = 'inline-block';
+    }
+  };
+</script>
+                </ul>
+                </div>
+            </nav>
+            <article>
+                <div id="section1">
+                    <div id="LinkStemwijzerVak">
+                        <div id="LinkStemwijzerText">Gebruik de knop hieronder om direct<br>naar de stemwijzer te komen</div>
+                        <a href="stemwijzer menu.html">
+                            <button id="LinkStemwijzerKnop">Stemwijzer</button>
+                        </a>
+                    </div>
+                    
+                    <div class="Slider fade">
+                    <div id="LeukFeitPVVVak">
+                        <img src="image/Slider PVV.png" id="LeukFeitPVVFoto" width="140" height="140"/>
+                        <div id="LeukFeitPVVText">De PVV heeft slechts een officieel partijlid: Geert Wilders. Hij bepaalt het verkiezingsprogramma en kandidatenlijst helemaal zelf, uniek in de Nederlandse politiek.</div>
+                    </div>
+                    </div>
+
+                    <div class="Slider fade">
+                    <div id="LeukFeitGLPVDAVak">
+                        <img src="image/Slider GLPVDA.png" id="LeukFeitGLPVDAFoto" width="140" height="140"/>
+                        <div id="LeukFeitGLPVDAText">GroenLinks en PvdA vormden in 2023 een gezamenlijke lijst. Samen proberen zij klimaatbeleid, sociale gelijkheid en Europese samenwerking centraal te zetten in Den Haag.</div>
+                    </div>
+                    </div>
+
+                    <div class="Slider fade">
+                    <div id="LeukFeitVVDVak">
+                        <img src="image/Slider VVD .png" id="LeukFeitVVDFoto" width="140" height="140"/>
+                        <div id="LeukFeitVVDText">De VVD is de grootste liberale partij van Nederland en leverde tussen 2010 en 2023 onafgebroken de minister-president: Mark Rutte van de VVD.</div>
+                    </div>
+                    </div>
+
+                    <div class="Slider fade">
+                    <div id="LeukFeitNSCVak">
+                        <img src="image/Slider NSC.png" id="LeukFeitNSCFoto" width="140" height="140"/>
+                        <div id="LeukFeitNSCText">Nieuw Sociaal Contract werd in 2023 opgericht door Pieter Omtzigt en behaalde meteen 20 zetels  een historische prestatie voor een nieuwe partij.</div>
+                    </div>
+                    </div>
+
+                    <div class="Slider fade">
+                    <div id="LeukFeitD66Vak">
+                        <img src="image/Slider D66.png" id="LeukFeitD66Foto" width="140" height="140"/>
+                        <div id="LeukFeitD66Text">D66 wil bestuurlijke vernieuwing en pleitte ooit voor het afschaffen van de monarchie. De partij richt zich sterk op onderwijs, klimaat en democratische hervorming.</div>
+                    </div>
+                    </div>
+                </div>
+
+                <br>
+                <div id="section2">
+
+                    <div id="WaaromBestaanPartijenVak1">
+                        <img src="image/iemand die nadenkt.png" id="WaaromBestaanPartijenfoto"/>
+                        <div id="WaaromBestaanPartijenVak2">
+                            <div id="WaaromBestaanPartijentext">Waarom bestaan<br>politieke partijen?</div>
+                            <a href="waarom politieke partijen.html">
+                                <button id="WaaromBestaanPartijenKnop">Lees meer</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="WatDoenPartijenVak1">
+                        <img src="image/politieke partijen.png" id="WatDoenPartijenFoto"/>
+                        <div id="WatDoenPartijenVak2">
+                            <div id="WatDoenPartijentext">Wat doen<br> politieke partijen?</div>
+                            <a href="wat politieke partijen.html">
+                                <button id="WatDoenPartijenKnop">Lees meer</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="HoeWerktStemwijzerVak1">
+                        <img src="image/hoe werkt stemwijzer.png" id="HoeWerktStemwijzerFoto"/>
+                        <div id="HoeWerktStemwijzerVak2">
+                            <div id="HoeWerktStemwijzertext">Hoe werkt een<br> Stemwijzer?</div>
+                            <a href="hoe stemwijzer.html">
+                                <button id="HoeWerktStemwijzerKnop">Lees meer</button>
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+            </article>
+            <div class="lijn-footer"></div>
+            <footer class="footerbar">
+                <div class="footerdiv">
+                <img src="image/logo-neutraal-kieslab-donkerblauw.svg" class="logoB" width="80" height="80"/>
+                <ul>
+                    <a href="https://www.facebook.com/facebook/" target="_blank">
+                        <img src="image/facebook logo.png" width="70" height="70"/>
+                    </a>
+                    <a href="https://x.com/" target="_blank">
+                        <img src="image/twiiter logo.png" width="70" height="70"/>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="image/instagram logo.png" width="70" height="70"/>
+                    </a>
+                    <a class="linkedin" href="https://www.linkedin.com/" target="_blank">
+                        <img src="image/LinkedIn logo.png" width="70" height="70"/>
+                    </a>
+                </ul>
+                </div>
+            </footer>
+        </section>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("Slider");
+                for (i = 0; i < slides.length; i++) {
+                     slides[i].style.display = "none";  
+                }
+                    slideIndex++;
+  
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                    slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 20000);
+            }
+
+                   window.onload = function() {
+                checkLoginStatus();
+            };
+            
+  function login() {
+    const knop = document.getElementById("knopD");
+    knop.innerText = "Profiel";     // Verander de knoptekst
+    knop.id = "knopE";              // Verander het ID (optioneel, als je het nodig hebt)
+    knop.onclick = openProfile;     // Verander wat de knop doet
+  }
+
+  function openProfile() {
+    window.location.href = "profiel view.html";
+  }
+
+            // Functie om login status te controleren en button aan te passen
+            function checkLoginStatus() {
+                const isLoggedIn = localStorage.getItem('isLoggedIn');
+                const navLink = document.getElementById('navLink');
+                const loginButton = document.getElementById('loginButton');
+                
+                if (isLoggedIn === 'true') {	
+                    navLink.textContent = 'Profiel';
+                    navLink.href = 'profiel view.html';
+                    loginButton.className = 'knopE'; // Verander CSS class indien nodig
+                    loginButton.textContent = 'Uitlog';
+                } else {
+                    navLink.textContent = 'Inlog';
+                    navLink.href = 'Inlog Regri.html';
+                    loginButton.className = 'knopD';
+                }
+            }
+
+            // Functie die aangeroepen wordt na succesvol inloggen
+            function handleSuccessfulLogin() {
+                localStorage.setItem('isLoggedIn', 'true');
+                checkLoginStatus(); // Update de button direct
+            }
+
+            // Functie voor uitloggen
+            function handleLogout() {
+                localStorage.removeItem('isLoggedIn');
+                checkLoginStatus(); // Update de button direct
+            }
+
+            // Luister naar storage events (voor als er in een ander tabblad wordt ingelogd)
+            window.addEventListener('storage', function(e) {
+                if (e.key === 'isLoggedIn') {
+                    checkLoginStatus();
+                }
+            });
+
+     
+  
+        </script>
+    </body>
+</html>
